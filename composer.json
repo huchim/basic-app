@@ -1,0 +1,15 @@
+{
+    "name": "basic-app",
+    "description": "Basic app using emotion package ",
+    "version": "1.0.0-beta",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        { "packagist": false }
+    ],
+    "require": {
+        "huchim/emotion": "dev-master"
+    }
+}
