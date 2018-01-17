@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6066e87d60466bd6da6138eb116a16cb",
+    "content-hash": "e989667447ac72a885d000ff41c27adf",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -115,17 +115,17 @@
             "time": "2016-10-03T20:31:07+00:00"
         },
         {
-            "name": "huchim/emotion",
+            "name": "emotion/emotion",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/huchim/emotion.git",
-                "reference": "10c9bc248bab057741ba33b8bf3aea65e8e51663"
+                "reference": "20efff34e363f56c4fd6aa81820e68b76a991923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/huchim/emotion/zipball/10c9bc248bab057741ba33b8bf3aea65e8e51663",
-                "reference": "10c9bc248bab057741ba33b8bf3aea65e8e51663",
+                "url": "https://api.github.com/repos/huchim/emotion/zipball/20efff34e363f56c4fd6aa81820e68b76a991923",
+                "reference": "20efff34e363f56c4fd6aa81820e68b76a991923",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +136,14 @@
                 "twig/twig": "^1.0"
             },
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Emotion\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Mini-framework for basic apps",
-            "time": "2018-01-17T16:28:49+00:00"
+            "time": "2018-01-17T17:09:16+00:00"
         },
         {
             "name": "league/openid-connect-claims",
@@ -817,7 +822,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "huchim/emotion": 20
+        "emotion/emotion": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

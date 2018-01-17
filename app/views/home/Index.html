@@ -3,5 +3,25 @@
     
 {% endblock %}
 {% block content %}   
-    Hi there!
+
+<p>
+    <code>app/controllers/HomeController.php (Index)</code> was executed.
+</p>
+<p>
+    Variable <code>age</code> has value: <code>{{ age }}</code>
+</p>
+
+<code>HomeController.php</code>
+
+<pre>
+&lt;?php
+
+    class HomeController extends \Emotion\ControllerBase {
+        public function Index() {
+            $this->assign("age", 29); // Assign view value
+            return $this->View(); // return view...
+        }
+    }
+</pre>
+
 {% endblock %}

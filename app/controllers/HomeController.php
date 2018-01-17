@@ -1,7 +1,8 @@
 <?php
 
-class HomeController extends \Emotion\BaseController {
+class HomeController extends \Emotion\ControllerBase {
     public function Index() {
-        return "Hola mundo!";
+        $this->assign("age", 29);
+        return $this->View();
     }
 }
